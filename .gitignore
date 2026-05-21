@@ -1,0 +1,54 @@
+# Nextflow work directory
+work/
+
+# Results
+results/
+output/
+test_results/
+
+# Nextflow reports
+.nextflow*
+.nextflow/
+reports/
+dag.svg
+timeline.html
+trace.txt
+report.html
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+.venv
+venv/
+env/
+conda_env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data
+data/
+raw_data/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+
+# Indices
+*.bt2
+*.bt2l
+bowtie2_index/
+
+# Test data
+test_data/
+test_output/
